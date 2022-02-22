@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Lainnya</title>
+</head>
+
+<body class="bg-blue-600">
+    <div class="flex justify-center h-screen ">
+        <div class="flex justify-center container text-center">
+            <div class="mt-40 space-y-20 text-4xl text-white ">
+                <h1>PILIH JENIS TRANSAKSI</h1>
+                <div class="flex justify-between space-x-40 ">
+                    <div class="grid space-y-20 w-1/2">
+                        <button onclick="penarikan()"> <- PENARIKAN</button>
+                        <button onclick="transfer()"> <- TRANSFER</button>
+                        <button onclick="pembelian()"> <- PEMBELIAN</button>
+                        <button onclick="lainnya()"> <- LAINNYA</button>
+                    </div>
+                    <div class="grid space-y-20 text-right w-1/2">
+                        <button onclick="inforekening()"> INFO REKENING -></button>
+                        <button onclick="pembayaran()"> PEMBAYARAN -></button>
+                        <button onclick="ubahPin()"> UBAH PIN -></button>
+                        <a href="/asuu/pages/ambilkartu.html"><button onclick="keluar()"> KELUAR -></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

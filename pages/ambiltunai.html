@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>ATM</title>
+    <title>Ambil Tunai</title>
 </head>
 
-<body class="bg-black">
+<body class="bg-blue-600">
     <div class="flex justify-center h-screen ">
-        <div class="flex justify-center container text-center bg-blue-700 ">
-            <div class="mt-40 space-y-20 text-5xl text-white ">
-                <h1 class="">PILIH JUMLAH PAKET TUNAI</h1>
+        <div class="flex justify-center container text-center">
+            <div class="mt-40 space-y-20 text-4xl text-white ">
+                <h1>PILIH JUMLAH PAKET TUNAI</h1>
                 <div class="flex justify-between space-x-40 ">
                     <div class="grid space-y-20 w-1/2">
                         <button onclick="seRatus()"> <- 100.000</button>
@@ -51,48 +51,48 @@
     function seRatus() {
         let saldoakhir = saldo - paket.seratus;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function duaRatus() {
         let saldoakhir = saldo - paket.duaratus;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function tigaRatus() {
         let saldoakhir = saldo - paket.tigaratus;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function limaRatus() {
         let saldoakhir = saldo - paket.limaratus;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
 
     function satuJuta() {
         let saldoakhir = saldo - paket.satujuta;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function satuSetengah() {
         let saldoakhir = saldo - paket.satusetengah;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function duaJuta() {
         let saldoakhir = saldo - paket.duaJuta;
         confirm(`Sisa Saldo anda ${saldoakhir}`)
-        window.open('/5.ambilkartu.html', '_blank')
+        window.open('ambilkartu.html', '_blank')
     }
 
     function lainnya() {
-        window.open('/6.lainnya.html', '_blank');
+        window.open('lainnya.html', '_blank');
         window.close();
     }
 </script>
